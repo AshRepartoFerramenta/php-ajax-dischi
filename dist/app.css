@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Lato&display=swap);/* color */
+
+/* typo */
+
+/* dimension */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  background: #1E2D3B;
+}
+
+.container {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background: #2e3a46;
+}
+
+header .container img {
+  height: 50px;
+  margin-top: 10px;
+}
+
+main .cds-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px 0;
+}
+
+main .cds-container .album {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200px;
+  padding: 20px;
+  margin: 10px 20px;
+  height: 360px;
+  background: #2e3a46;
+  text-align: center;
+}
+
+main .cds-container .album img {
+  max-width: 100%;
+}
+
+main .cds-container .album h3 {
+  margin: 20px 0;
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+main .cds-container .album span.author {
+  color: #808080;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+main .cds-container .album span.year {
+  font-size: 14px;
+  color: #808080;
+}
+
+main .cds-container h2 {
+  color: #ffffff;
+  font-size: 26px;
+}
+

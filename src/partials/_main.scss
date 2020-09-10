@@ -1,0 +1,36 @@
+main {
+	.cds-container {
+    @include flex-center-wrap;
+		padding: 100px 0;
+		.album {
+			@include flex-basis-column;
+			padding: 20px;
+			margin: 10px 20px;
+			height: 360px;
+			background: $secondaryColor;
+			text-align: center;
+			img {
+				max-width: 100%;
+			}
+			h3 {
+				margin: 20px 0;
+				color: $primaryColor;
+				font-size: $h3FontSize;
+				text-transform: uppercase;
+			}
+			span.author {
+				color: $thirdColor;
+				font-size: $regularFontSize;
+				margin-bottom: 10px;
+			}
+			span.year {
+				font-size: $smallFontSize;
+				color: $thirdColor;
+			}
+		}
+		h2 {
+			color: $primaryColor;
+			font-size: $h2FontSize;
+		}
+	}
+}
