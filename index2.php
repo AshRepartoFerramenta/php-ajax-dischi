@@ -17,18 +17,18 @@
     <main>
       <select name="authors" id="authors">
           <option value="Seleziona un autore">Seleziona un autore</option>
+          <option value="Velvet Underground">Velvet Underground</option>
           <option value="Queen">Queen</option>
-          <option value="Oasis">Oasis</option>
           <option value="Michael Jackson">Michael Jackson</option>
-          <option value="Club Dogo">Club Dogo</option>
-          <option value="Gem Boy">Gem Boy</option>
-          <option value="Gigi D'Agostino">Gigi D'Agostino</option>
-          <option value="Articolo 31 - J-Ax">Articolo 31 - J-Ax</option>
-          <option value="Billie Eilish">Billie Eilish</option>
-          <option value="Elettra Lamborghini">Elettra Lamborghini</option>
-          <option value="Tupac">Tupac</option>
-          <option value="The Notorious B.I.G.">The Notorious B.I.G.</option>
-          <option value="50 Cent">50 Cent</option>
+          <option value="Led Zeppelin">Led Zeppelin</option>
+          <option value="The Beatles">The Beatles</option>
+          <option value="The Rolling Stones">The Rolling Stones</option>
+          <option value="Luca Turilli">Luca Turilli</option>
+          <option value="Sepultura">Sepultura</option>
+          <option value="Impaled Nazarene">Impaled Nazarene</option>
+          <option value="Hollywood Undead">Hollywood Undead</option>
+          <option value="Iron Maiden">Iron Maiden</option>
+          <option value="Aerosmith">Aerosmith</option>
         </select>
       <div class="cds-container container">
         
